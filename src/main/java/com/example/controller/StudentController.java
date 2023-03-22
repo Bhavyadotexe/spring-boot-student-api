@@ -16,7 +16,7 @@ public class StudentController {
     @GetMapping("/get")
     private StudentResponse getStudent() {
         StudentResponse studentResponse = new StudentResponse
-                (7, "Bhawana", "Kandalakr");
+                (7, "Bhawana", "Kandalkar");
         return studentResponse;
     }
 

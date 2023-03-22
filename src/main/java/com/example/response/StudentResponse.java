@@ -12,7 +12,6 @@ import lombok.Setter;
 public class StudentResponse {
     @JsonIgnore
     private long id;
-    @JsonProperty("first_name")
     private String firstName;
     private String lastName;
 }
